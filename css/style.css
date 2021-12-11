@@ -1,0 +1,315 @@
+/* *********************************************** GLOBAL STYLES ******************************************* */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+html {
+    font-size: 100%;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.8;
+    font-family: 'Poppins', Poppins, Arial, Helvetica, sans-serif;
+}
+
+.section-margin_padding {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.section-bg-color {
+    background-color: #f8f9fa;
+}
+
+.col-margin {
+    margin-top: 30px;
+}
+
+div.col-md-4>img {
+    margin-top: 50px;
+}
+
+
+/* **** HEADING STYLES ***** */
+
+.header-1 {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+body>header>div.header-contact-2>a:nth-child(1)>svg,
+body>header>div.header-contact-2>a:nth-child(2)>svg>path,
+body>header>div.header-contact-2>a:nth-child(3)>svg,
+body>header>div.header-contact-2>a:nth-child(4)>svg>path,
+body>header>div.header-contact-1.text-success>svg.svg-inline--fa.fa-envelope.fa-w-16.fa-lg.fa-fw>path,
+body>header>div.header-contact-1.text-success>svg.svg-inline--fa.fa-phone.fa-w-16.fa-lg.fa-fw>path,
+body>header>div.header-contact-1.text-success>span:nth-child(4),
+body>header>div.header-contact-1.text-success>span:nth-child(2) {
+    color: white;
+}
+
+body>header>div.header-contact-2>a:nth-child(1)>svg:hover,
+body>header>div.header-contact-2>a:nth-child(2)>svg>path:hover,
+body>header>div.header-contact-2>a:nth-child(3)>svg:hover,
+body>header>div.header-contact-2>a:nth-child(4)>svg>path:hover,
+body>header>div.header-contact-1.text-success>svg.svg-inline--fa.fa-envelope.fa-w-16.fa-lg.fa-fw>path:hover,
+body>header>div.header-contact-1.text-success>svg.svg-inline--fa.fa-phone.fa-w-16.fa-lg.fa-fw>path:hover,
+body>header>div.header-contact-1.text-success>span:nth-child(4):hover,
+body>header>div.header-contact-1.text-success>span:nth-child(2):hover {
+    color: #28a745;
+}
+
+.header-contact-1 {
+    padding-left: 1.5rem;
+}
+
+.header-contact-2 {
+    padding-right: 3rem;
+}
+
+.logo {
+    display: block;
+    width: 100px;
+    height: 80px;
+}
+
+.logo-text span {
+    letter-spacing: 15px;
+    font-weight: bold;
+}
+
+body>nav>p>span:nth-child(3) {
+    letter-spacing: normal;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 3rem!important;
+    padding-left: 0.5rem;
+}
+
+div.dropdown-menu {
+    border: none!important;
+}
+
+a.dropdown-item {
+    font-size: 0.7rem!important;
+    border: none!important;
+    padding: 10px 10px!important;
+    border-bottom: 1px solid gray!important;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #28a745!important;
+}
+
+
+/* Dropdown Transition */
+
+.dropdown-menu {
+    margin-top: 0;
+}
+
+.navbar .nav-item:not(:last-child) {
+    margin-right: 35px;
+}
+
+.dropdown-toggle::after {
+    transition: transform 0.15s linear;
+}
+
+.show.dropdown .dropdown-toggle::after {
+    transform: translateY(3px);
+}
+
+
+/* **** SHOWCASE / CAROUSAL STYLES **** */
+
+.carousel-image {
+    display: block;
+    width: 100%;
+    min-width: 1000px;
+}
+
+
+/* **** ABOUT US SECTION **** */
+
+.font-awesome-icons {
+    color: #28a745
+}
+
+#about-us>div>p {
+    text-align: center;
+}
+
+
+/* **** FEATURED COURSES SECTION **** */
+
+section#featured-training-courses h4 {
+    margin-top: 10px;
+}
+
+
+/* **** TESTIMONIAL SECTION STYLES **** */
+
+#testimonial {
+    background-image: url(../image/tech_background1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#testimonial h6 {
+    font-weight: bold;
+}
+
+.testimonial-box {
+    font-size: 0.9rem;
+    padding: 20px;
+}
+
+.testimonial-image {
+    border: 1px solid white;
+    border-radius: 100%;
+}
+
+.testimonial-image-box {
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+.quote-color {
+    color: #28a745
+}
+
+
+/* **** SITE MAP / GOOGLE MAP SECTION **** */
+
+#map iframe {
+    width: 100%;
+}
+
+
+/* **** MORE INFO LIST STYLE **** */
+
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+
+/* **** CALL TO ACTION STYLES **** */
+
+#call-to-action {
+    background-image: url(../image/background.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* **** HUBSPOT FORN STYLES **** */
+
+iframe {
+    font-family: 'Poppins', sans-serif, Arial, Helvetica !important;
+    margin: 15px auto;
+    position: static;
+    border: medium none;
+    display: block;
+    overflow: hidden;
+    width: 90% !important;
+    height: 988.767px;
+}
+
+
+/* **** FOOTER STTYLES **** */
+
+.copywrite-info {
+    background-color: black;
+    padding: 5px;
+    width: 100%;
+}
+
+
+/* **** UTILITY CLASS FOR JAVASCRIPT **** */
+
+.activeClass {
+    background-color: white;
+    transition: 3sec;
+}
+
+
+/* **** MEDIA QUERIES **** */
+
+
+/* Navigation Media Query */
+
+@media(max-width: 500px) {
+    html {
+        font-size: 85%;
+    }
+    .header-1 {
+        flex-direction: column;
+        text-align: center;
+        padding: 0px;
+    }
+    .header-contact-1,
+    .header-contact-2 {
+        padding: 0px;
+    }
+    /* Heading styles */
+    .h1,
+    h1 {
+        font-size: 2rem
+    }
+    .h2,
+    h2 {
+        font-size: 1.5rem
+    }
+    .h3,
+    h3 {
+        font-size: 1.4rem
+    }
+    .h4,
+    h4 {
+        font-size: 1.3rem
+    }
+    .h5,
+    h5 {
+        font-size: 1.2rem
+    }
+    .h6,
+    h6 {
+        font-size: 1rem
+    }
+    /* Hubspot Form Media Query */
+    iframe {
+        width: 100% !important;
+    }
+    /* Google Map Media Query */
+    iframe {
+        width: 100% !important;
+    }
+}
+
+@media(max-width: 1094px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0rem !important;
+        padding-left: 0rem!important;
+    }
+    .navbar-nav {
+        margin-right: 50px;
+    }
+    /* Testimonial Section Media Query */
+    .testimonial-heading {
+        font-size: 1.6rem;
+    }
+}
