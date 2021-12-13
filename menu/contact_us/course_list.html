@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>About Us | Xplorers Computer Training School</title>
+    <title>Course List | Xplorers Computer Training School</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -30,7 +30,7 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
-    <!-- Bootstrap Local CSS -->
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../../css/bootstrap.min.css" />
     <!-- Custome CSS -->
     <link rel="stylesheet" href="../../css/style.css" />
@@ -109,8 +109,8 @@
           <li class="nav-item active">
             <a class="nav-link" href="../../index.html"
               ><i class="fas fa-home fa-lg fa-fw"></i> HOME
-              <span class="sr-only">(current)</span></a
-            >
+              <span class="sr-only">(current)</span>
+            </a>
           </li>
           <li class="nav-item dropdown">
             <a
@@ -124,10 +124,12 @@
               <i class="fas fa-book-reader fa-lg fa-fw"></i> ABOUT
             </a>
             <div class="dropdown-menu" aria-labelledby="dropdownId">
-              <a class="dropdown-item" href="about_us.html">ABOUT US</a>
-              <a class="dropdown-item" href="news.html">NEWS</a>
-              <a class="dropdown-item" href="F_A_Q.html">FAQ</a>
-              <a class="dropdown-item" href="sitemap.html">SITEMAP</a>
+              <a class="dropdown-item" href="../about/about_us.html"
+                >ABOUT US</a
+              >
+              <a class="dropdown-item" href="../about/news.html">NEWS</a>
+              <a class="dropdown-item" href="../about/F_A_Q.html">FAQ</a>
+              <a class="dropdown-item" href="../about/sitemap.html">SITEMAP</a>
             </div>
           </li>
           <li class="nav-item dropdown">
@@ -140,8 +142,9 @@
               aria-expanded="false"
             >
               <i class="fas fa-graduation-cap fa-lg fa-fw"></i> TRAINING
-              SERVICES
-            </a>
+              SERVICES</a
+            >
+
             <div class="dropdown-menu" aria-labelledby="dropdownId">
               <a
                 class="dropdown-item"
@@ -198,9 +201,7 @@
               <a class="dropdown-item" href="../contact_us/enquiry_form.html"
                 >ENQUIRY FORM</a
               >
-              <a class="dropdown-item" href="../contact_us/course_list.html"
-                >COURSE LIST</a
-              >
+              <a class="dropdown-item" href="#">COURSE lIST</a>
               <a
                 class="dropdown-item"
                 href="../contact_us/individual_training.html"
@@ -223,89 +224,121 @@
     <!--End of Main Navigation Menu -->
     <!-- END OF HEADER NAVIGATION MENU -->
 
-    <!-- BEGINING OF ABOUT US SECTION -->
-    <section id="about-us">
+    <!-- BEGINING OF COURSE LIST SECTION -->
+    <section id="general-training-form_course-list-grid">
       <div class="container">
-        <h3 class="bg-success text-white text-center mt-2 p-2">About Us</h3>
         <div class="row">
-          <!-- Begining of About Us Picture/About Us Links Grid -->
-          <div class="col-md-4">
-            <img
-              src="../../image/about.png"
-              class="
-                img-fluid
-                ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}
-              "
-              alt=""
-            />
-            <div class="mt-4">
-              <div class="list-group mt-4">
-                <h4 class="mt-2 bg-white">About Us</h4>
-                <a
-                  href="F_A_Q.html"
-                  class="
-                    list-group-item list-group-item-action
-                    text-white
-                    bg-success
-                  "
-                  >FAQ</a
-                >
-                <a
-                  href="news.html"
-                  class="
-                    list-group-item list-group-item-action
-                    text-white
-                    bg-success
-                  "
-                  >News</a
-                >
-                <a
-                  href="sitemap.html"
-                  class="
-                    list-group-item list-group-item-action
-                    text-white
-                    bg-success
-                  "
-                  >Sitemap</a
-                >
-              </div>
-            </div>
+          <!-- Begining of Course List -->
+          <div class="col-md-6">
+            <i class="fas fa-graduation-cap fa-3x fa-fw text-success mt-4"></i>
+            <h3 class="mt-3">List of Courses</h3>
+            <ul class="list-group">
+              <li class="list-group-item">
+                ICT Fundamental Courses
+                <small>
+                  <ul class="list-group">
+                    <li class="list-group-item">
+                      Certificate in Digital Literacy
+                    </li>
+                    <li class="list-group-item">
+                      Diploma in Information Technology
+                    </li>
+                  </ul>
+                </small>
+              </li>
+              <li class="list-group-item">
+                Database Management Courses
+                <small>
+                  <ul class="list-group">
+                    <li class="list-group-item">
+                      Administering MySQL Database
+                    </li>
+                    <li class="list-group-item">
+                      Microsoft Access Database Course
+                    </li>
+                  </ul>
+                </small>
+              </li>
+              <li class="list-group-item">
+                Computer Hardware Engineering
+                <small>
+                  <ul class="list-group">
+                    <li class="list-group-item">CompTIA A+</li>
+                  </ul>
+                </small>
+              </li>
+              <li class="list-group-item">
+                Web Development Courses
+                <small>
+                  <ul class="list-group">
+                    <li class="list-group-item">
+                      Frontend Web Development (Client Side)
+                    </li>
+                    <li class="list-group-item">
+                      Backend Web Development (Server Side)
+                    </li>
+                    <li class="list-group-item">
+                      Content Management System (Wordpress)
+                    </li>
+                  </ul>
+                </small>
+              </li>
+              <li class="list-group-item">
+                Data Science Courses
+                <small>
+                  <ul class="list-group">
+                    <li class="list-group-item">Microsoft PowerBI</li>
+                    <li class="list-group-item">Advanced Microsoft Excel</li>
+                  </ul>
+                </small>
+              </li>
+              <li class="list-group-item">
+                Computer Networking Courses
+                <small>
+                  <ul class="list-group">
+                    <li class="list-group-item">CompTIA Network+</li>
+                  </ul>
+                </small>
+              </li>
+              <li class="list-group-item">
+                Computer Engineering Courses
+                <small>
+                  <ul class="list-group">
+                    <li class="list-group-item">CompTIA A+</li>
+                  </ul>
+                </small>
+              </li>
+              <li class="list-group-item">
+                Graphics & Design Course
+                <small>
+                  <ul class="list-group">
+                    <li class="list-group-item">Graphics and Design</li>
+                  </ul>
+                </small>
+              </li>
+            </ul>
           </div>
-          <!-- End of About Us Picture/About Us Links Grid -->
-          <!-- Begining of About Us Description Grid -->
-          <div class="col-md-8">
-            <p class="mt-3">
-              Since 2003, Xplorers Computer Training School has grown to become
-              one of the largest independent IT training company inNigeria.
-              Businesses and individuals can choose from hundreds of course
-              offerings, delivered by experts. For many small, medium and large
-              organizations, Xplorers is the single source for all their IT
-              training needs.
-            </p>
-            <p class="mt-3">
-              The IT skills level in Nigeria is still in her formative stages
-              and years behind other countries in America, Europe and Asia. IT
-              has also proven to be the greatest creator/driver of wealth in
-              these countries and Nigeria has been unable topartake in this
-              because of our dearth of skills in this area.The founders
-              ofXplorers Nigeria saw the deepening of the IT knowledge divide
-              between the developed nations and the developing ones and in order
-              to bridge this divide, they decided to form a strategic alliance
-              with the most reputable IT training organization in the world –
-              Xplorers World-wide to provide world class IT training to the
-              people of Nigeria.
-            </p>
-            <p class="mt-3">
-              Xplorers Nigeria strongly believes that by doing this, she will
-              contribute immensely to the socio-economic development of Nigeria
-              and is currently the largest IT training company in Nigeria.
-            </p>
-          </div>
-          <!-- End of About Us Description Grid  -->
+          <!-- End of Course List-->
         </div>
       </div>
     </section>
-    <!-- END OF ABOUT US SECTION -->
+    <!-- END OF COURSE LIST SECTION -->
+
+    <!-- BEGINING OF GOOGLE MAPS SECTION -->
+    <section id="google-maps">
+      <div class="container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7951.026228047239!2d6.97359825349349!3d4.853309409271114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069ce26021d4ea1%3A0xb7d1256fe53ea0cf!2sXplorers%20Cafe!5e0!3m2!1sen!2sng!4v1576812063466!5m2!1sen!2sng"
+          width=""
+          height=""
+          frameborder="0"
+          style="border: 0"
+          allowfullscreen=""
+        >
+        </iframe>
+      </div>
+    </section>
+    <!-- END OF GOOGLE MAPS SECTION -->
 
     <!-- FOOTER SECTION -->
     <footer id="footer" class="section-margin_padding badge-dark">
@@ -417,7 +450,7 @@
                 ><small>GRAPHICS & DESIGN</small></a
               >
               <a
-                href="../contact_us/course_list.html"
+                href="#"
                 class="
                   list-group-item list-group-item-action
                   bg-dark
@@ -499,7 +532,6 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <!-- Local JQuery -->
     <script src="../../js/jquery-3.3.1.js "></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js "
@@ -512,6 +544,5 @@
     <script src="../../js/fontawesome_all.min.js"></script>
     <!-- Dropdown Javascript -->
     <script src="../../js/dropdown_onhover.js"></script>
-    <!-- Start of HubSpot Embed Code -->
   </body>
 </html>
