@@ -345,13 +345,82 @@
                             <p class="mt-3"> <strong>Course Fee:</strong> ₦40,000 </p>
                         </div>
                         <div class="tab-pane fade" id="register_now">
-                            <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
-                            <script>
-                                hbspt.forms.create({
-                                    portalId: "6902355",
-                                    formId: "090ed63e-3707-4b6a-a8be-668ae6ea85cd"
-                                });
-                            </script>
+                            <form class="m-3">
+                                <div class="form-group">
+                                  <label for="first_name">First Name</label
+                                  ><span class="required-field">*</span>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    aria-describedby="helpId"
+                                    id="first_name"
+                                    required
+                                  />
+                                  <small id="helpId" class="text-muted"
+                                    >Enter your first name here</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label for="last_name" class="mt-3">Last Name</label
+                                  ><span class="required-field">*</span>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    aria-describedby="helpId"
+                                    id="last_name"
+                                    required
+                                  />
+                                  <small id="helpId" class="text-muted"
+                                    >Enter your last name here</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label for="user_email" class="mt-3">Email</label
+                                  ><span class="required-field">*</span>
+                                  <input
+                                    type="email"
+                                    class="form-control"
+                                    aria-describedby="helpId"
+                                    id="user_email"
+                                    required
+                                  />
+                                  <small id="helpId" class="text-muted"
+                                    >Enter your email here</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label for="registered_course" class="mt-4">Course</label
+                                  ><span class="required-field">*</span>
+                                  <input
+                                    value="CompTIA Network+"
+                                    type="text"
+                                    class="form-control"
+                                    aria-describedby="helpId"
+                                    id="registered_course"
+                                    required
+                                    disabled
+                                  />
+                                  <small id="helpId" class="text-muted"
+                                    >Registered Course</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label for="user_phone_number" class="mt-4"
+                                    >Phone Number</label
+                                  ><span class="required-field">*</span>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    aria-describedby="helpId"
+                                    id="user_phone_number"
+                                    required
+                                  />
+                                  <small id="helpId" class="text-muted"
+                                    >Enter a valid phone number</small
+                                  >
+                                </div>
+                                <button type="submit" class="btn btn-success">Submit</button>
+                              </form>
                         </div>
                     </div>
                     <!-- End of Digital Literacy Tabs Content -->
@@ -452,10 +521,6 @@
     <script src="../../js/fontawesome_all.min.js"></script>
     <!-- Dropdown Javascript -->
     <script src="../../js/dropdown_onhover.js"></script>
-
-    <!-- Start of HubSpot Embed Code -->
-    <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/6902355.js"></script>
-    <!-- End of HubSpot Embed Code -->
 </body>
 
 </html>
